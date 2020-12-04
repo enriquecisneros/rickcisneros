@@ -1,0 +1,471 @@
+@media (max-width: 427px){
+    .item img{
+        width: 600px;
+        left: -20%;
+        max-width: none;
+        top: 0!important;
+    }
+    .header .row {
+        padding: 10px 5%;
+    }
+    .carousel {
+        top: 55px;
+    }
+    .carousel-inner h1{
+        white-space: nowrap;
+        font-size: 30px;
+    }
+    .carousel-inner p{
+        width: 60%;
+        font-size: 14px;
+    }
+    .carousel-inner .link{
+        padding: 17px 20px;
+    }
+    .container .collapse{
+        height: 0;
+    }
+    .navbar-header{
+        padding: 4px 0;
+    }
+    .navbar-brand{
+        float: none;
+    }
+    .navbar-toggle{
+        background-color: transparent;
+        border: none;
+    }
+    .sr-only {
+        background-color: hsla(0, 0%, 0%, 0);
+        border: medium none;
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        width: 1px;
+    }
+    .icon-bar {
+        background-color: hsl(0, 0%, 100%);
+        display: block;
+        height: 3px;
+        margin-top: 3px;
+        width: 20px;
+    }
+    .container .navbar .nav{
+        display: table;
+        margin: 10px auto 0;
+        float: none;
+    }
+    button.navbar-toggle{
+        display: block;
+        float: right;
+    }
+    .navbar .nav > li{
+        width: 100%;
+    }
+    .services_item > li{
+        width: 100%;
+        min-height: 225px;
+    }
+    .gallery_work{
+        width: 90%;
+    }
+    .gallery_work > li{
+        width: 100%;
+    }
+    .gallery_work{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .our_team__item li{
+        width: 100%;
+
+    }
+    .our_team__social{
+        width: 80%;
+    }
+    .our_team__social li{
+        float: left;
+        width: auto;
+    }
+    .contact_info{
+        width: 100%;
+    }
+    #Testimonials .head{
+        font-size: 30px;
+    }
+    .owl-item > div{
+        font-size: 20px;
+    }
+    .owl-carousel__name{
+        font-size: 20px;
+    }
+    .contact_form{
+        width: 100%;
+    }
+    .contact_form input[type="text"],.contact_form input[type="email"], textarea, input[type="submit"]{
+        width: 96%;
+    }
+    .contact_form textarea{
+        width: 96%;
+        min-width: 96%;
+        max-width: 96%;
+    }
+    .contact_form input[type="submit"]{
+        margin-right: -0.5%;
+        width: 100%;
+    }
+    a.dropdown-toggle{
+        display: block;
+        min-width: 100%;
+        position: relative;
+    }
+    .gallery_tags{
+        width: 70%;
+    }
+
+    .category {
+        display: block;
+        float: left;
+        padding: 10px 20px;
+        width: 100%;
+    }
+    .icon {
+        background-color: #007aff;
+        border-radius: 0 5px 5px 0;
+        display: block;
+        padding: 10px 8px 12px;
+        position: absolute;
+        right: 0;
+    }
+    .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1000;
+        display: none;
+        float: left;
+        min-width: 160px;
+        margin: 2px 0 0;
+        list-style: none;
+        background-color: #ffffff;
+        border: 1px solid #ccc;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        *border-right-width: 2px;
+        *border-bottom-width: 2px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+        -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        -webkit-background-clip: padding-box;
+        -moz-background-clip: padding;
+        background-clip: padding-box;
+    }
+
+
+    .gallery_tags ul.dropdown-menu li{
+        width: 100%;
+        text-align: center;
+        border: none;
+        border-bottom: 1px solid #007aff ;
+    }
+    .gallery_tags ul.dropdown-menu li:first-child>a{
+        border-radius: 5px 5px 0 0;
+    }
+    .gallery_tags ul.dropdown-menu li:last-child>a{
+        border-radius: 0 0 5px 5px;
+    }
+    .parallax{
+        background-position: 0 0!important;
+        background-size: 100% ;
+    }
+    .head{
+        font-size: 30px;
+    }
+    .owl-item > div{
+        font-size: 20px;
+    }
+    .owl-carousel__name{
+        font-size: 20px;
+    }
+}
+
+
+
+
+@media (min-width: 428px) and (max-width: 767px) {
+    .item img{
+        width: 800px;
+        left: -10%;
+        max-width: none;
+        top: 0!important;
+    }
+    .carousel {
+        top: 55px;
+    }
+    .parallax{
+        background-position: 0 0!important;
+        background-size: cover;
+    }
+    .container .collapse{
+        height: 0;
+    }
+    .navbar-header{
+        padding: 4px 0;
+    }
+    .navbar-brand{
+        float: none;
+    }
+    .navbar-toggle{
+        background-color: transparent;
+        border: none;
+    }
+    .sr-only {
+        background-color: hsla(0, 0%, 0%, 0);
+        border: medium none;
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        width: 1px;
+    }
+    .icon-bar {
+        background-color: hsl(0, 0%, 100%);
+        display: block;
+        height: 3px;
+        margin-top: 3px;
+        width: 20px;
+    }
+    .container .navbar .nav{
+        display: table;
+        margin: 10px auto 0;
+        float: none;
+    }
+    button.navbar-toggle{
+        display: block;
+        float: right;
+    }
+    .navbar .nav > li{
+        width: 100%;
+    }
+    .carousel-inner h1{
+        white-space: nowrap;
+        font-size: 30px;
+    }
+    .carousel-inner p{
+        width: 60%;
+        font-size: 14px;
+    }
+    .services_item > li{
+        width: 100%;
+        min-height: 225px;
+    }
+    .gallery_work > li{
+        width: 46%;
+    }
+
+
+
+    .gallery_work > li >img{
+        height: auto;
+    }
+    .our_team__item li{
+        width: 100%;
+
+    }
+    .our_team__social{
+        width: 40%;
+    }
+    .our_team__social li{
+        float: left;
+        width: auto;
+    }
+    .contact_info{
+        width: 100%;
+    }
+    .contact_form{
+        width: 100%;
+    }
+    .contact_form input[type="text"],.contact_form input[type="email"], textarea, input[type="submit"]{
+        width: 96%;
+    }
+    .contact_form textarea{
+        width: 96%;
+        min-width: 96%;
+        max-width: 96%;
+    }
+    .contact_form input[type="submit"]{
+        margin-right: -0.5%;
+        padding: 17px 60px;
+    }
+    a.dropdown-toggle{
+        display: block;
+        min-width: 100%;
+        position: relative;
+    }
+    .gallery_tags{
+        width: 70%;
+    }
+
+    .category {
+        display: block;
+        float: left;
+        padding: 10px 20px;
+        width: 100%;
+    }
+    .icon {
+        background-color: #007aff;
+        border-radius: 0 5px 5px 0;
+        display: block;
+        padding: 10px 8px 12px;
+        position: absolute;
+        right: 0;
+    }
+    .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1000;
+        display: none;
+        float: left;
+        min-width: 160px;
+        margin: 2px 0 0;
+        list-style: none;
+        background-color: #ffffff;
+        border: 1px solid #ccc;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        *border-right-width: 2px;
+        *border-bottom-width: 2px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+        -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        -webkit-background-clip: padding-box;
+        -moz-background-clip: padding;
+        background-clip: padding-box;
+    }
+
+
+    .gallery_tags ul.dropdown-menu li{
+        width: 100%;
+        text-align: center;
+        border: none;
+        border-bottom: 1px solid #007aff ;
+    }
+    .gallery_tags ul.dropdown-menu li:first-child>a{
+        border-radius: 5px 5px 0 0;
+    }
+    .gallery_tags ul.dropdown-menu li:last-child>a{
+        border-radius: 0 0 5px 5px;
+    }
+    .header .row{
+        padding: 10px 5%;
+    }
+    #navbar a{
+        padding: 5px 15px;
+    }
+    .head{
+        font-size: 30px;
+    }
+    .owl-item > div{
+        font-size: 20px;
+    }
+    .owl-carousel__name{
+        font-size: 20px;
+    }
+
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .carousel {
+        top: 55px;
+    }
+    .parallax{
+        background-position: 0 39px;
+    }
+    .header .row{
+        padding: 10px 5%;
+    }
+    .container .collapse{
+        height: 0;
+    }
+    .navbar-header{
+       margin-top: 3px;
+    }
+    .navbar-brand{
+        float: none;
+    }
+    .navbar-toggle{
+        background-color: transparent;
+        border: none;
+    }
+    .sr-only {
+        background-color: hsla(0, 0%, 0%, 0);
+        border: medium none;
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        width: 1px;
+    }
+    .icon-bar {
+        background-color: hsl(0, 0%, 100%);
+        display: block;
+        height: 3px;
+        margin-top: 3px;
+        width: 20px;
+    }
+    .container .navbar .nav{
+        display: table;
+        margin: 10px auto 0;
+        float: none;
+    }
+    button.navbar-toggle{
+        display: block;
+        float: right;
+    }
+    .carousel-inner h1{
+        white-space: pre-wrap;
+        font-size: 40px;
+    }
+
+    .carousel-inner p{
+        font-size: 18px;
+    }
+    .carousel-inner .link{
+        padding: 17px 20px;
+    }
+    .services_item > li{
+        width: 46%;
+        min-height: 225px;
+    }
+
+    .gallery_work > li{
+        width: 29.3%;
+    }
+    .our_team__item li{
+        width: 46%;
+    }
+    .our_team__social{
+        width: 60%;
+    }
+    .our_team__item span {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+
+}
+
+
+
+@media (min-width: 980px) {
+    .container .collapse{
+        height: auto!important;
+    }
+}

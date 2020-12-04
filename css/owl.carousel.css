@@ -1,0 +1,188 @@
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.2
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+.owl-pagination{
+    display: table;
+    margin: 0 auto;
+}
+.owl-page{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #e1e1e1;
+    float: left;
+}
+.owl-page.active{
+    background-color: #71b6d5;
+}
+.owl-wrapper-outer{
+    text-align: center;
+}
+.owl-item {
+    width: 100%;
+    color: hsl(0, 0%, 47%);
+    font-size: 18px;
+    line-height: 25px;
+}
+.owl-carousel__name {
+    margin-top: 30px;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'robotoregular';
+}
+.owl-item > div{
+    line-height: 45px;
+    margin-top: 0px;
+    font-size: 30px;
+    color: #fff;
+}
+.owl-buttons{
+    display: table;
+    margin:0 auto;
+}
+.owl-buttons>div{
+    position: relative;
+    font-size: 0;
+    float: left;
+    opacity: 1;
+    width: 54px;
+    height: 54px;
+    margin: 0 10px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.owl-prev{
+    background: url('../img/nav-slider.png')0 0 no-repeat;
+}
+.owl-next{
+    background: url('../img/nav-slider.png') -54px 0 no-repeat;
+}
+.owl-next:after,.owl-prev:after{
+    display: block;
+    content: ' ';
+    position: absolute;
+    top: 0;
+    opacity: 1;
+    width: 54px;
+    height: 54px;
+    opacity: 0;
+    transform: scale(0);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.owl-next:after{
+    background: transparent url(../img/nav-slider.png) no-repeat -54px -54px;
+}
+.owl-prev:after{
+    background: transparent url(../img/nav-slider.png) no-repeat 0 -54px;
+}
+.owl-next:hover,.owl-prev:hover{
+    -webkit-animation: an1 0.4s ease;
+    -moz-animation: an1 0.4s ease;
+    -o-animation: an1 0.4s ease ;
+    -ms-animation: an1 0.4s ease;
+    animation: an1 0.4s ease;
+}
+.owl-next:hover:after,.owl-prev:hover:after{
+    opacity: 1;
+    transform: scale(1);
+}
+@-webkit-keyframes an1{
+    0%{opacity: 1;-webkit-transform: scale(1);}
+    50%{opacity:0.3;-webkit-transform: scale(0.7)}
+    100%{opacity:1;-webkit-transform: scale(1)}
+}
+@-moz-keyframes an1{
+    0%{opacity: 1;transform: scale(1);}
+    50%{opacity:0.3;transform: scale(0.7)}
+    100%{opacity:1;transform: scale(1)}
+}
+@-o-keyframes an1{
+    0%{opacity: 1;transform: scale(1);}
+    50%{opacity:0.3;transform: scale(0.7)}
+    100%{opacity:1;transform: scale(1)}
+}
+@-ms-keyframes an1{
+    0%{opacity: 1;transform: scale(1);}
+    50%{opacity:0.3;transform: scale(0.7)}
+    100%{opacity:1;transform: scale(1)}
+}
+@-keyframes an1{
+    0%{opacity: 1;transform: scale(1);}
+    50%{opacity:0.3;transform: scale(0.7)}
+    100%{opacity:1;transform: scale(1)}
+}
